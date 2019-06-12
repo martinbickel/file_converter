@@ -1,20 +1,14 @@
 ### Date created
-Date of creation: 08.06.2019
+Date of creation: 12.06.2019
 
 ### Project Title
-Analysis of bikeshare
+file converter
 
 ### Description
-goal of the project was to develop a tool to analyze the data of a bikesharing platform. As a data source three different .csv files were being used. The interactive program gives the user the possibility to filter by city month and year. The results are statistics in the given time.
+The goal of of the project is to convert a .csv-file full of data into a number of .txt files in order to load them into a data-management-system.
 
 ### Files used
-bikeshare_project.py
-chicago.csv
-new_york_city.csv
-washington.csv
+file_converter.py
 
 ### Credits
-resources for solving the task:
-https://www.tutorialspoint.com/python/
-https://stackoverflow.com/
-udacity online course - program content for python and git
+udacity practice programs
