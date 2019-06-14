@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = '/Users/acemartinb/Documents/Projekte_Python/convert_to_files/test_file.csv'
 
-def load_data(CITY_DATA):
+def load_data():
     """
     Loads the source file.
 
@@ -13,8 +13,8 @@ def load_data(CITY_DATA):
     Returns:
         df - Pandas DataFrame containing the data from the .csv
     """
-    df = pd.read_csv(CITY_DATA)
-
+    df = pd.read_csv('/Users/acemartinb/Documents/Projekte_Python/convert_to_files/test_file.csv')
+    print(df)
     return df
 
 
@@ -25,7 +25,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
