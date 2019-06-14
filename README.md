@@ -9,6 +9,7 @@ The goal of of the project is to convert a .csv-file full of data into a number 
 
 ### Files used
 file_converter.py
+test_file.csv
 
 ### Credits
 udacity practice programs
