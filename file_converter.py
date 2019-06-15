@@ -13,8 +13,11 @@ def load_data():
     Returns:
         df - Pandas DataFrame containing the data from the .csv
     """
+
     df = pd.read_csv('/Users/acemartinb/Documents/Projekte_Python/convert_to_files/test_file.csv')
     print(df)
+    test = df[3]
+    print(test)
     return df
 
 
